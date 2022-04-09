@@ -1,0 +1,70 @@
+{
+  "0": {
+    "category": "experience",
+    "label": "Experience",
+    "items": [
+      {
+        "title": "0-3 years",
+        "value": "junior"
+      },
+      {
+        "title": "4-7 years",
+        "value": "middle"
+      },
+      {
+        "title": "8-10 years",
+        "value": "senior"
+      },
+      {
+        "title": "11+ years",
+        "value": "lead"
+      }
+    ]
+  },
+  "1": {
+    "category": "profession",
+    "label": "Profession",
+    "items": [
+      {
+        "title": "Developer",
+        "value": "developer"
+      },
+      {
+        "title": "Teacher",
+        "value": "teacher"
+      },
+      {
+        "title": "Cashier",
+        "value": "cashier"
+      }
+    ]
+  },
+  "2": {
+    "category": "location",
+    "label": "Location/City",
+    "items": [
+      {
+        "title": "Stockholm",
+        "value": "stockholm"
+      },
+      {
+        "title": "Gothenburg",
+        "value": "gothenburg"
+      }
+    ]
+  },
+  "3": {
+    "category": "incomeYear",
+    "label": "Income Year",
+    "items": [
+      {
+        "title": "2019",
+        "value": "2019"
+      },
+      {
+        "title": "2020",
+        "value": "2020"
+      }
+    ]
+  }
+}
