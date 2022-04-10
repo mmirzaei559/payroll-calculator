@@ -29,4 +29,4 @@ This software allows users to enter information such as profession, amount of ex
 
 ### What technologies are used?
 
-React.js, Redux library for managing and centralizing application state as well as Styled-components to write actual CSS in your JavaScript, chart.js for data visualization, and Jest.js for JavaScript testing.
+React.js, Redux library for managing and centralizing application state as well as Styled-components to write actual CSS in JavaScript, chart.js for data visualization, and Jest.js for JavaScript testing.
