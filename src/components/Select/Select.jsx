@@ -15,9 +15,9 @@ export default function Select(props) {
     return (
         <Container>
             <label>{props.data.label}:</label>
-            <SelectTag onChange={handleChange} className={props.error[props.data.category] && 'error'}>
+            <SelectTag data-testid="select-tag" onChange={handleChange} className={props.error[props.data.category] && 'error'}>
             <option value="" hidden>select your {props.data.label}</option>
-            {props.data.items.map(item => (<option value={item.value} key={item.value}>{item.title}</option>))}
+            {props.data.items.map(item => (<option data-testid="option-tag" value={item.value} key={item.value}>{item.title}</option>))}
             </SelectTag>
             {props.error[props.data.category] && <Error>* {props.data.label} is required</Error>}
         </Container>

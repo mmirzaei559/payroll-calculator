@@ -33,7 +33,8 @@ export default function DropDown(props) {
         <Container>
             <Label>{props.data.label}:</Label>
             <Input
-            className={props.error[props.data.category] && 'error'}
+             data-testid="search-input"
+             className={props.error[props.data.category] && 'error'}
                 role="search-box"
                    aria-label="Search options"
                    value={searchTerm}
@@ -46,7 +47,7 @@ export default function DropDown(props) {
             <SearchIcon alt='search' src={searchIcon}/>
             {
                 showUl ?
-                    <Ol>
+                    <Ol data-testid="items-ordered-lists">
                         {props.data.items.filter((item) => {
                             if (searchTerm === '') {
                                 return item
